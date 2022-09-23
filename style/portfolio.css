@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #c97ed8;
-  --secondary-color: #eedaf2;
+  --branding-color: #c36bd5;
+  --secondary-color: #efe6f1;
   --heading-font-family: "Karla", sans-serif;
   --default-font-family: "Fuzzy Bubbles", cursive;
 }
@@ -8,37 +8,32 @@
 body {
   font-family: var(--default-font-family);
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: black;
-  font-family: var(--heading-font-family);
-}
-h1 {
+
+.hero h1 {
   font-size: 96px;
   font-weight: bold;
   line-height: 1.5;
+  margin: 0 auto 20px;
 }
 .hero {
   background: var(--secondary-color);
   text-align: center;
   padding: 100px 20px 40px;
+  font-family: var(--heading-font-family);
 }
 .hero p {
-  font-size: 36px;
+  font-size: 42px;
   font-weight: bold;
   margin: 0;
   color: #272142;
 }
 .hero h2 {
   font-size: 24px;
+  font-family: var(--default-font-family);
 }
 .btn-branding {
   background: var(--branding-color);
-  border-radius: 4px;
+  border-radius: 8px;
   color: white;
   font-size: 18px;
   line-height: 27px;
@@ -53,47 +48,60 @@ h1 {
   margin: 30px 100px;
   max-width: 500px;
 }
-.intro p,
-h2 {
-  margin: 40px;
-  font-size: 20px;
+.intro {
+  margin: 20px auto;
 }
-.btn-branding-outline {
-  color: var(--branding-color);
-  border: 1px solid var(--branding-color);
-  border-radius: 4px;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 27px;
-  padding: 15px 30px;
-  text-align: center;
+.intro h2 {
+  padding: 90px 50px 60px 0;
+  font-size: 50px;
+  font-family: var(--heading-font-family);
+}
+.intro p {
+  padding: 0 50px 0 0;
+  font-size: 20px;
+  text-align: justify;
 }
 
 .project-column {
   box-shadow: 5px 7px 10px rgba(201, 126, 216, 0.5);
   background-color: var(--secondary-color);
   margin: 40px 15px;
-  padding: 50px 10px;
+  padding: 40px 10px;
   justify-content: space-evenly;
   border-radius: 5px;
 }
 .project-column h2 {
-  font-size: 20px;
+  font-size: 40px;
   font-weight: bold;
   font-family: var(--heading-font-family);
-  margin: 20px;
+  margin: 10px auto 30px;
 }
 .project-column p {
   font-size: 20px;
+  font-family: var(--default-font-family);
+}
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 27px;
+  padding: 15px 30px;
+  text-align: center;
   font-family: var(--heading-font-family);
 }
-@media (max-width: 576px) {
-  h1 {
-    font-size: 64px;
+
+@media (max-width: 767px) {
+  .hero p {
+    font-size: 36px;
+  }
+  .hero h1 {
+    font-size: 48px;
     font-weight: bold;
     line-height: 1;
   }
-  h2 {
+  .hero h2 {
     margin: 30px;
   }
   .hero {
@@ -101,6 +109,62 @@ h2 {
   }
   .btn-branding {
     margin: 20px;
+  }
+  .intro {
+    margin: 0 20px;
+  }
+  .portfolio-picture {
+    display: block;
+    margin: 10px auto;
+    max-width: 300px;
+    text-align: center;
+  }
+  .intro h2 {
+    text-align: center;
+    padding: 0;
+  }
+  .intro p {
+    text-align: center;
+    padding: 0;
+  }
+  .project-column {
+    margin: 40px 30px;
+  }
+}
+@media (max-width: 900px) {
+  .hero p {
+    font-size: 36px;
+  }
+  .hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1;
+  }
+  .hero h2 {
+    margin: 30px;
+  }
+  .hero {
+    margin: 0 0 10px;
+  }
+  .btn-branding {
+    margin: 20px;
+  }
+  .intro {
+    margin: 0 20px;
+  }
+  .portfolio-picture {
+    display: block;
+    margin: 10px auto;
+    max-width: 300px;
+    text-align: center;
+  }
+  .intro h2 {
+    text-align: center;
+    padding: 0;
+  }
+  .intro p {
+    text-align: center;
+    padding: 0;
   }
   .project-column {
     margin: 40px 30px;
