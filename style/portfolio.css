@@ -90,47 +90,9 @@ body {
   padding: 15px 30px;
   text-align: center;
   font-family: var(--heading-font-family);
+  margin: 15px auto;
 }
 
-@media (max-width: 767px) {
-  .hero p {
-    font-size: 36px;
-  }
-  .hero h1 {
-    font-size: 48px;
-    font-weight: bold;
-    line-height: 1;
-  }
-  .hero h2 {
-    margin: 30px;
-  }
-  .hero {
-    margin: 0 0 10px;
-  }
-  .btn-branding {
-    margin: 20px;
-  }
-  .intro {
-    margin: 0 20px;
-  }
-  .portfolio-picture {
-    display: block;
-    margin: 10px auto;
-    max-width: 300px;
-    text-align: center;
-  }
-  .intro h2 {
-    text-align: center;
-    padding: 0;
-  }
-  .intro p {
-    text-align: center;
-    padding: 0;
-  }
-  .project-column {
-    margin: 40px 30px;
-  }
-}
 @media (max-width: 900px) {
   .hero p {
     font-size: 36px;
@@ -169,4 +131,9 @@ body {
   .project-column {
     margin: 40px 30px;
   }
+}
+.paintings {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 80px auto;
 }
