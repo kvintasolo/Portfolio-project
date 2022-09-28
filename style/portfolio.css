@@ -10,7 +10,7 @@ body {
 }
 nav {
   margin: 0;
-  padding: 20px;
+  padding: 10px  50px;
   font-family: var(--heading-font-family);
   font-size: 18px;
   background-color: white;
@@ -31,12 +31,13 @@ nav a {
   transition: all 100ms ease-in-out;
   padding: 7px 0;
 }
-.lable {
-  font-size: 20px;
-}
+
 nav a:hover,
 nav li.active a {
   color: var(--branding-color);
+}
+.lable {
+  font-size: 20px;
 }
 .container-head {
   margin: 0 10px;
@@ -137,7 +138,7 @@ nav li.active a {
   border-radius: 8px;
 }
 .header {
-  margin: 120px 40px;
+  margin: 120px 40px 60px;
 }
 .content-container h1 {
   font-family: var(--heading-font-family);
