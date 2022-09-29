@@ -220,6 +220,16 @@ footer .social-links a:hover {
 .contact-links a:hover {
   color: var(--branding-color);
 }
+.signature {
+  font-family: var(--heading-font-family);
+}
+.hover {
+  transition: transform 300ms ease-in-out;
+  transition: 600ms ease-in-out;
+}
+.hover:hover {
+  transform: scale(1.1, 1.1);
+}
 @media (max-width: 900px) {
   .hero p {
     font-size: 36px;
@@ -284,7 +294,10 @@ footer .social-links a:hover {
   .paintings {
     margin: 30px auto;
   }
-  nav,
+  nav {
+    margin: 0;
+    padding: 0 7px;
+  }
   nav a {
     margin: 0;
     padding: 12px 2px;
@@ -296,8 +309,12 @@ footer .social-links a:hover {
   .lable {
     font-size: 12px;
     font-weight: bolder;
+    padding: 14px 0;
   }
   footer .contact-box {
     text-align: center;
+  }
+  .contact-links p a {
+    font-size: 18px;
   }
 }

@@ -28,7 +28,10 @@
     />
     <link rel="stylesheet" href=" /style/portfolio.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Front-end developer - Anna Stratanovych</title>
+    <title>
+      Anna Stratanovych - Front-end developer, vocal coach, musician and artist
+      from Kyiv, Ukraine
+    </title>
     <meta
       name="description"
       content="Anna Stratanovych is a front-end developer based in Ukraine, check out her projects and contact for job inquiries."
@@ -37,17 +40,21 @@
   <body>
     <div class="container-head">
       <nav class="d-flex justify-content-between fixed-top">
-        <a href="/" class="lable">Anna Stratanovych</a>
+        <a href="/" class="lable" title="Anna Stratanovych"
+          >Anna Stratanovych</a
+        >
         <ul>
-          <li class="active"><a href="/">Home</a></li>
-          <li><a href="/paintings.html">Paint</a></li>
-          <li><a href="/work.html">Front-end</a></li>
-          <li><a href="/ukrlele.html">UkrLele</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li class="active"><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/paintings.html" title="Paintings">Paint</a></li>
+          <li><a href="/work.html" title="Front-end projects">Front-end</a></li>
+          <li>
+            <a href="/ukrlele.html" title="Ukrlele music project">UkrLele</a>
+          </li>
+          <li><a href="/contact.html" title="Contacts">Contact</a></li>
         </ul>
       </nav>
     </div>
-    <div class="hero my-5">
+    <div class="hero my-5 font">
       <p>Hello!</p>
       <h1>My name is Anna</h1>
       <h2>
@@ -55,7 +62,9 @@
         Ukraine.
       </h2>
       <div>
-        <a href="/contact.html" class="btn btn-branding"> Contact me</a>
+        <a href="/contact.html" class="btn btn-branding" title="Contact Me">
+          Contact me</a
+        >
       </div>
     </div>
     <div class="container portfolio">
@@ -63,9 +72,9 @@
         <div class="col">
           <img
             src="/images/47069128_10213199248520745_7808632736087801856_n.jpg"
-            alt=""
-            title=""
-            class="figure-img img-fluid rounded-circle portfolio-picture"
+            alt="Anna Stratanovych Profile picture"
+            title="Profile picture"
+            class="figure-img img-fluid rounded-circle portfolio-picture hover"
           />
         </div>
         <div class="col intro">
@@ -99,8 +108,8 @@
           <img
             src="images/paintings.jpg"
             class="img-fluid rounded project-pictures my-5"
-            alt="Paintings"
-            title="paintings"
+            alt="Paintings project"
+            title="Paintings"
           />
         </div>
         <div class="col text-center project-column">
@@ -113,7 +122,7 @@
             <a
               href="/work.html"
               class="btn btn-branding-outline"
-              title="Weather project"
+              title="Front-end projects"
               >Launch Front-end projects</a
             >
           </div>
@@ -135,52 +144,81 @@
             <a
               href="/ukrlele.html"
               class="btn btn-branding-outline"
-              title="Weather project"
+              title="Ukrlele Music project"
               >Launch UkrLele</a
             >
           </div>
           <img
             src="images/ukrlele.jpg"
             class="img-fluid rounded project-pictures my-5"
-            alt="Ukrlele"
+            alt="Ukrlele music project"
             title="Ukrlele"
           />
         </div>
       </div>
     </div>
-    <footer>
-      <div class="contact-box justify-content-between mb-5 d-md-flex">
-        <div>
-          <h1>Work Inquiry</h1>
-          <h4 class="text-muted">Let's work together</h4>
+    <div class="container">
+      <footer>
+        <div class="contact-box justify-content-between mb-5 d-md-flex">
+          <div>
+            <h1>Work Inquiry</h1>
+            <h4 class="text-muted">Let's work together</h4>
+          </div>
+          <div>
+            <a
+              class="btn btn-branding mt-3"
+              href="mailto:kvintasolo@gmail.com"
+              title="Write me an e-mail"
+              >Contact me</a
+            >
+          </div>
         </div>
-        <div>
-          <a class="btn btn-branding mt-3" href="mailto:kvintasolo@gmail.com"
-            >Contact me</a
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:kvintasolo@gmail.com"
+            class="email-link"
+            title="Write me an e-mail"
+            >kvintasolo@gmail.com</a
           >
         </div>
-      </div>
-      <div class="d-flex justify-content-center mb-5">
-        <a href="mailto:kvintasolo@gmail.com" class="email-link"
-          >kvintasolo@gmail.com</a
-        >
-      </div>
-      <div class="social-links d-flex justify-content-center">
-        <a href="https://github.com/kvintasolo" target="_blank"
-          ><i class="fa-brands fa-github"></i
-        ></a>
-        <a href="https://www.instagram.com/kvintasolo/" target="_blank"
-          ><i class="fa-brands fa-instagram"></i
-        ></a>
-        <a
-          href="https://www.linkedin.com/in/anna-stratanovych-44a25b138/"
-          target="_blank"
-          ><i class="fa-brands fa-linkedin"></i
-        ></a>
-        <a href="https://www.facebook.com/anna.stratanovich" target="_blank"
-          ><i class="fa-brands fa-facebook"></i
-        ></a>
-      </div>
-    </footer>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://github.com/kvintasolo"
+            target="_blank"
+            title="GitHub Profile"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/kvintasolo/"
+            target="_blank"
+            title="Instagram Profile"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/anna-stratanovych-44a25b138/"
+            target="_blank"
+            title="Linkedin Profile"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/anna.stratanovich"
+            target="_blank"
+            title="Facebook Profile"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </div>
+
+        <p class="text-center mt-5 signature">
+          This website was coded by Anna Stratanovych, and is
+          <a
+            href="https://github.com/kvintasolo/Portfolio-project"
+            target="_blank"
+            title="Look through this project on GitHub"
+          >
+            open-sourced
+          </a>
+        </p>
+      </footer>
+    </div>
   </body>
 </html>
