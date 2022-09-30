@@ -230,6 +230,17 @@ footer .social-links a:hover {
 .hover:hover {
   transform: scale(1.1, 1.1);
 }
+.videos {
+  margin: 20px auto;
+}
+.video {
+  margin: 100px auto;
+
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 @media (max-width: 900px) {
   .hero p {
     font-size: 36px;
@@ -316,5 +327,9 @@ footer .social-links a:hover {
   }
   .contact-links p a {
     font-size: 18px;
+  }
+  .video {
+    width: 315px;
+    height: 250px;
   }
 }
